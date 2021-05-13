@@ -10,7 +10,7 @@ Plataformas disponibles:
 
 ---
 ## Requisitos
-- Git
+- GIT
 - NPM
 
 ## Instalación automatica (recomendado para novatos)
