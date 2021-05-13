@@ -21,6 +21,7 @@ Para instalar la aplicacion como un servicio que se autoejecuta con el inicio de
 1. git clone https://github.com/Alopezfu/youtube-mp3.git
 2. cd youtube-mp3
 3. npm install
+4. Iniciar la aplicación (node app.js)
 
 --- 
 ## Proximas mejoras
