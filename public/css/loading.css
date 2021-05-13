@@ -1,0 +1,23 @@
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+#okey {
+    border-right: .1em solid red;
+    width: 16.5em;
+    width: 14ch;
+    display: none;
+    margin: auto;
+    overflow: hidden;
+    animation: typing 2s steps(21, end), blink-caret .5s step-end infinite alternate;
+    color: #fff;
+    font-size: 2em;
+}

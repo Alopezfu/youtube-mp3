@@ -1,0 +1,103 @@
+:root {
+    --bg_color: #2d2d2d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+
+    display: none;
+}
+
+@font-face {
+    font-family: "FontBold";
+    src: url("../src/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "FontMedium";
+    src: url("../src/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "FontLight";
+    src: url("../src/fonts/Poppins-ExtraLight.ttf");
+}
+
+body {
+    background: var(--bg_color);
+    font-family: 'FontMedium';
+}
+
+div {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'FontBold';
+    color: #fff;
+}
+
+span {
+    color: red;
+}
+
+input {
+    font-size: 1.7em;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 50%;
+    font-family: 'FontMedium';
+    -webkit-box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.22);
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    margin-left: 20px;
+    width: 20%;
+    color: #fff;
+    border: solid 3px #fff;
+}
+
+input[type="submit"]:hover {
+    transition: background-color 0.3s;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+#error404 {
+    color: rgb(209, 26, 26);
+}
+
+#err {
+    color: rgb(255, 0, 0);
+    font-family: 'FontMedium';
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+@media (max-width: 1030px) {
+    div {
+        width: 100%;
+    }
+    input {
+        width: 90%;
+    }
+    input[type="submit"] {
+        width: 90%;
+        margin: 20px 0px;
+    }
+}

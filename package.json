@@ -1,0 +1,17 @@
+{
+  "name": "youtube_mp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "socket.io": "^4.0.2",
+    "youtube-dl-exec": "^1.2.3",
+    "ytdl-core": "^4.8.0"
+  }
+}
