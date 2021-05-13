@@ -1,4 +1,4 @@
-﻿# youtube-mp3 🎶
+# youtube-mp3 🎶
 
 Esta aplicación la he desarrollado con la finalidad de aprender mas sobre Node.JS, mi intención es ampliar mas el proyecto, pero actualmente funciona como cualquier otra apelación de YouTube MP3. Se aceptan sugerencia de la comunidad y el proyecto es libre para todo el mundo para editar y usar sin animo de lucro.
 
@@ -34,3 +34,7 @@ Para instalar la aplicacion como un servicio que se autoejecuta con el inicio de
   - Eliminar
   - Reproducir en el navegador
   - Compartir
+
+---
+
+![alt a](https://github.com/Alopezfu/youtube-mp3/raw/main/screenshot.png)
