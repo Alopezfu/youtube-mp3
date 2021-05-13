@@ -1,11 +1,4 @@
 Clear-Host;
-$isGitInstalled = $null -ne ( (Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*) + (Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*) | Where-Object { $null -ne $_.DisplayName -and $_.Displayname.Contains('Git') })
-if (!$isGitInstalled) {
-    Write-Host "Git no instalado. Saliendo de la instalacion...";
-    Start-Sleep -Seconds 8
-    exit;
-}
-
 $path = [Environment]::GetFolderPath("MyDocuments");
 Write-Host "Directorio de instalacion: $path";
 Start-Sleep -Seconds 3
@@ -24,5 +17,5 @@ Write-Host "Añadiendo al inicio de Windows..."
 Start-Sleep -Seconds 3
 
 cd $env:APPDATA"\Microsoft\Windows\Start Menu\Programs\Startup\"
-Add-Content -Path youtube-mp3.cmd -Value 'cd %USERPROFILE%\Documents
+Add-Content -Path youtube-mp3.cmd -Value 'cd %USERPROFILE%\Documents\youtube-mp3
 start /min cmd /c "pm2 start app.js"';
