@@ -15,7 +15,7 @@ Plataformas disponibles:
 
 ## Instalación automatica (recomendado para novatos)
 Para instalar la aplicacion como un servicio que se autoejecuta con el inicio de tu Windows puedes usar el script.
-1. Descargar y ejecutar este archivo https://github.com/Alopezfu/youtube-mp3.git
+1. Descargar y ejecutar este archivo https://raw.githubusercontent.com/Alopezfu/youtube-mp3/main/windows-setup.ps1
 
 ## Instalación
 1. git clone https://github.com/Alopezfu/youtube-mp3.git
